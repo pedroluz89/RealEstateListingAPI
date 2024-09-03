@@ -1,4 +1,4 @@
-`# Real Estate Listing API - Screening Project for Senior C# Developers
+# Real Estate Listing API - Screening Project for Senior C# Developers
 
 ## Overview
 This Real Estate Listing API serves as a baseline project for assessing the skills of candidates applying for the Senior C# Developer position. It utilizes .NET 6 with an in-memory database managed by Entity Framework Core, and is documented using Swagger.
@@ -23,7 +23,7 @@ To run this project locally:
    dotnet build
    dotnet run `
 
-1.  Navigate to `http://localhost:<port>/swagger` in your browser to interact with the API using Swagger UI.
+1.  Navigate to `http://localhost:(5236 or 7289)/swagger` in your browser to interact with the API using Swagger UI.
 
 Candidate Enhancement Tasks
 ---------------------------
