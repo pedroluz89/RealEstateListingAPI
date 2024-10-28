@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen(c =>
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
+builder.Services.AddScoped<IListingRepository, ListingRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
